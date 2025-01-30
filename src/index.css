@@ -1,0 +1,132 @@
+/* src/index.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0078d4;
+    margin-bottom: 20px;
+  }
+  
+  /* User list table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header */
+  th {
+    background-color: #0078d4;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: normal;
+  }
+  
+  /* Table cells */
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 16px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Form container */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form inputs */
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #0078d4;
+    outline: none;
+  }
+  
+  /* Form submit button */
+  button[type="submit"] {
+    background-color: #28a745;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Error message */
+  .text-red-500 {
+    color: #e74c3c;
+    font-size: 14px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  }
+  
